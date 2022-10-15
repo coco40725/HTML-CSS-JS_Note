@@ -3,7 +3,7 @@ In CSS, selectors are patterns used to select the element(s) you want to style.
 
 https://www.w3schools.com/cssref/css_selectors.asp 
 
-### 附加條件
+### 1. 附加條件
 Selector[條件]{
     屬性 : 屬性值
 }
@@ -19,7 +19,7 @@ a[target]{
 }
 ```
 
-### class 
+### 2. class 
 html 的標籤屬性，表示"**樣式表名稱**"，故可以填複數個 class 名稱，以空格區隔開，格式如下:
 ```html
 <標籤 class="a b c"> ... </標籤>
@@ -35,7 +35,7 @@ h1.title1{
 }
 ```
 
-### id
+### 3. id
 html 的標籤屬性，表示此元素的 "**唯一名稱**"，故只能有一個id名稱，格式如下:
 ```html
 <標籤 id="a"> ... </標籤>
@@ -51,7 +51,7 @@ p#the_para{
 }
 ```      
 
-### css 優先權:
+## css 優先權:
 1. 後寫的會優先前寫的
 2. 寫在html的style 會優先 寫在css的style
 3. css當中，有!important，優先度最高
