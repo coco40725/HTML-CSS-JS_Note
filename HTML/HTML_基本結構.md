@@ -22,6 +22,8 @@
   3. **內容 Content**
   <img src="https://dirask.com/static/bucket/1573242150028-jdlQB5OAR9--image.png">
 
+各種 tag 查詢: https://www.w3schools.com/tags/default.asp
+
 ### html 的撰寫注意事項
   1. 標籤建議用小寫
   2. 多個連續空格 會視為 只有一個空格
