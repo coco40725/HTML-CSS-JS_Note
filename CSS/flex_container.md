@@ -1,4 +1,4 @@
-## flex的相關功能 主要針對 container
+## flex container
 ### 1. flex-direction 
 決定 Items 該如何排列
   - row：預設值。(參考圖⼀)
@@ -41,3 +41,8 @@
   - center：以⾃⼰所在的那排為基準，將 Items 置於交錯軸的中間。
   - baseline：以⾃⼰所在的那排為基準，依據 baseline 基準線來做對⿑，參考下圖：
 
+### 6. 主軸 交叉軸
+- justify-content - 控制主軸上所有 flex 項目的對齊。
+- align-items - 控制交叉軸上所有 flex 項目的對齊。
+- align-self - 控制交叉軸上的單個 flex 項目的對齊。
+- align-content - 控制“多條主軸”的 flex 項目在交叉軸的對齊
