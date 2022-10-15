@@ -36,6 +36,20 @@
     - value : 屬性，用來指定當你選到此選項後，會以**甚麼value傳遞**
     - selected : 屬性，預設選擇
 
+```html
+<select multiple>
+    <optgroup label="分群1">
+        <option value="1">選項一</option>
+        <option value="2" selected>選項二</option>
+    </optgroup>
+    <optgroup label="分群2">
+        <option value="3">選項三</option>
+        <option value="4">選項四</option>
+        <option value="5">選項五</option>
+    </optgroup>
+</select>
+```
+
 #### 1.6  < button> : 一般按鈕
 - type : 屬性，決定此按鈕的功能，button(一般按鈕) / submit (資料送出，form標籤內的資料會全部送到action的網址)
 
