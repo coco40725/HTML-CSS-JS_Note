@@ -3,7 +3,11 @@
 2. none: 元素消失，但仍存在於程式碼
 3. inline-block: 行內區塊元素，接著該行排序，可設定width, height
 4. inline: 接著該行排序，不可設定width, height
-5. flex 
+5. flex :一個強大的排版方式，https://magicjackting.pixnet.net/blog/post/224485899 ，flex 是應用於區塊式內容的排版 (佈局) 方式。
+
+flex 的設定可以分為二大部份:
+  - 套用於 container (容器, 外部區塊) 的設定項, 和
+  - 套用於 items (內容項, 內部區塊) 的設定項.
 
 不同的display 可以使用的屬性不相同，例如: display: block 可設定width, height；但 display: inline 不可以，
 因此在調用屬性前可以先確認該屬性應用在哪些element上。
