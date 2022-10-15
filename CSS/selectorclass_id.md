@@ -8,6 +8,17 @@ Selector[條件]{
     屬性 : 屬性值
 }
 
+```css
+p[name=f1]{
+    color: burlywood;
+}
+
+/* a標籤且有target */
+a[target]{
+    color: chartreuse;
+}
+```
+
 ### class 
 html 的標籤屬性，表示"**樣式表名稱**"，故可以填複數個 class 名稱，以空格區隔開，格式如下:
 ```html
