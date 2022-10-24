@@ -1,7 +1,10 @@
 ## 區別 var, let 與 const
 Here we will give the brief for var, let, and const:
+
 **var**: 聲明且賦值後，不一定會更改。
+
 **let**: 聲明且賦值後，其值會再更改。
+
 **const**: 聲明且賦值後，其值不再更改，即視為常數。
 
 以下根據不同角度去看這三個關鍵字的差異:
