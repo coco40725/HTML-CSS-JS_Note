@@ -47,7 +47,7 @@ Hoisting means that you can define a variable before its declaration.
 console.log(a); // Pass and return "undefined"
 var a = 5;
 /*
-The above code is like:
+The above code is actually like:
 var a;
 console.log(a);
 a = 5;
